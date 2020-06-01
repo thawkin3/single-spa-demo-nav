@@ -1,25 +1,13 @@
 import React from "react";
+import "./root.component.css";
 
-const navStyles = {
-  display: "flex",
-  flexDirection: "row",
-  padding: "20px",
-  background: "#000",
-  color: "#FFF"
-};
-
-const linkStyles = {
-  marginRight: "20px",
-  color: "#FFF"
-};
-
-export default function Root(props) {
+export default function Root() {
   return (
-    <nav style={navStyles}>
-      <a href="/page1" style={linkStyles}>
+    <nav className="nav">
+      <a href="/page1" className="link">
         Page 1
       </a>
-      <a href="/page2" style={linkStyles}>
+      <a href="/page2" className="link">
         Page 2
       </a>
     </nav>
