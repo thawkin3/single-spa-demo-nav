@@ -1,4 +1,4 @@
-# single-spa demo - Root Config
+# single-spa demo - Nav
 
 ## Overview
 
